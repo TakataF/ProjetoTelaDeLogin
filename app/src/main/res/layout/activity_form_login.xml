@@ -19,9 +19,21 @@
             android:layout_marginTop="15dp"
             android:layout_marginBottom="25dp"
             android:src="@drawable/Logo" />
+
         <View
+            android:id="@+id/containerComponents"
             style="@style/ContainerComponents"
             android:layout_below="@+id/logo"/>
+        <EditText
+            style="@style/Edit_Text"
+            android:layout_alignLeft="@id/containerComponents"
+            android:layout_alignTop="@id/containerComponents"
+            android:layout_centerInParent="true"
+            android:layout_toStartOf="@id/containerComponents"
+            android:layout_toEndOf="@id/containerComponents"
+            android:hint="Email"/>
+
+
 
 
     </RelativeLayout>

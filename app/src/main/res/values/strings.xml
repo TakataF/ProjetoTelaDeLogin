@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Projeto Tela Login</string>
+    <string name="Entrar">Entrar</string>
+    <string name="Text_SignUp">Cire uma conta clicando aqui !!!</string>
 </resources>

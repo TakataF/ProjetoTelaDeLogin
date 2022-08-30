@@ -2,7 +2,9 @@ package com.takata.projetotelalogin;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class FormLogin extends AppCompatActivity {
@@ -14,7 +16,17 @@ public class FormLogin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form_login);
 
+
+        IniciarComponentes();
         getSupportActionBar().hide();
+
+        text_tela_cadastro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(FormLogin.this, FormCadastro.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void IniciarComponentes(){

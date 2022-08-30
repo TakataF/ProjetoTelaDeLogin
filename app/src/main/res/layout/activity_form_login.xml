@@ -18,7 +18,7 @@
             android:id="@+id/logo"
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:src="@drawable/Logo"
+            android:src="@drawable/logobuilding"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>

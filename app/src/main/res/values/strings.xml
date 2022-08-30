@@ -2,4 +2,5 @@
     <string name="app_name">Projeto Tela Login</string>
     <string name="Entrar">Entrar</string>
     <string name="Text_SignUp">Não tem conta? Cadastre-se</string>
+    <string name="title_cadastro">Cadastro</string>
 </resources>

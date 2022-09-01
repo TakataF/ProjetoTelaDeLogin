@@ -56,6 +56,7 @@
         android:drawableRight="@drawable/ic_eye"/>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_cadastrar"
         style="@style/Button"
         app:layout_constraintTop_toBottomOf="@id/containerCadastro"
         app:layout_constraintStart_toStartOf="parent"

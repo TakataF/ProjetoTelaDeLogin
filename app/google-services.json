@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "321891323565",
+    "project_id": "projeto-tela-de-login-7ece4",
+    "storage_bucket": "projeto-tela-de-login-7ece4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321891323565:android:bdd96e790f61a0ab850024",
+        "android_client_info": {
+          "package_name": "com.takata.projetotelalogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321891323565-nfi5qqv91co0li0d6nr742et2s0o91a6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQKeS53UzXap2Q5dsuNMqBUWw-dKV_x0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321891323565-nfi5qqv91co0li0d6nr742et2s0o91a6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

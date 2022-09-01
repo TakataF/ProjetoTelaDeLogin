@@ -17,6 +17,8 @@ public class FormLogin extends AppCompatActivity {
         setContentView(R.layout.activity_form_login);
 
 
+
+
         IniciarComponentes();
         getSupportActionBar().hide();
 

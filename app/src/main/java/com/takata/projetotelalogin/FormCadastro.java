@@ -116,7 +116,8 @@ public class FormCadastro extends AppCompatActivity {
         DocumentReference documentReference = db.collection("Usuarios").document(usuarioID);
         documentReference.set(usuarios).addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override
-            public void onSuccess(Void unused) {
+            public void onSuccess(Void aVoid) {
+
                 Log.d("db", "Sucesso ao salvar os dados");
             }
         })
@@ -127,6 +128,7 @@ public class FormCadastro extends AppCompatActivity {
              }
         });
     }
+
 
     private void IniciarComponentes(){
 

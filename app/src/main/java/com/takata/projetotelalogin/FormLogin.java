@@ -82,7 +82,7 @@ public class FormLogin extends AppCompatActivity {
                     new Handler().postDelayed(new Runnable() {
                         @Override
                         public void run() {
-
+                            TelaPrincipal();
                         }
                     }, 3000);
                 }else{
